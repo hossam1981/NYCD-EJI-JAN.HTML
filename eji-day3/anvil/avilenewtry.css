@@ -1,0 +1,83 @@
+body{
+    width: 80%;
+    margin: 0 auto;
+    font-family: arial;
+    color: grey;
+}
+.logo{
+    float: left;
+    width: 25%;
+}
+nav{
+    float: right;
+    padding-top: 5%;
+    font-size: 30px;
+}
+li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: grey;
+}
+.anvil{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+.column-left, .column-right{
+    float: left;
+    width: 40%;
+}
+.column-right{
+    margin-left: 10%;
+    float: right;
+}
+@media (max-width: 880px){
+	
+	.logo{ width: 55%;
+		display: block;
+		float: none;
+   	}
+   nav{
+   	float: none;
+
+   	}
+   nav li{
+   	display: block;
+   }
+	ul{
+	padding-left: 0%;
+	}
+
+	.anvil{
+		display: none;
+	}
+	.colum-left, .colum-right{
+	float:none;
+	width: 100%;
+	}
+
+	.colum-right{
+	margin-left: 0;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

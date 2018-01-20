@@ -1,0 +1,14 @@
+
+h1{
+  color: darkgreen;
+  text-align: center;
+}
+/* this for the head */
+body {
+    background-color: lightblue;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
